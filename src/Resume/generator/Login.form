@@ -184,7 +184,7 @@
               <Font name="Times New Roman" size="14" style="1"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/cv/generator/pngwing.com.png"/>
+              <Image iconType="3" name="/Resume/generator/pngwing.com.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="REGISTER"/>
           </Properties>
@@ -201,7 +201,7 @@
               <Font name="Times New Roman" size="14" style="1"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/cv/generator/pngwing.com (1).png"/>
+              <Image iconType="3" name="/Resume/generator/pngwing.com (1).png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="LOGIN"/>
           </Properties>
@@ -231,7 +231,7 @@
         <Component class="javax.swing.JLabel" name="jLabel3">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/cv/generator/pngegg (3).png"/>
+              <Image iconType="3" name="/Resume/generator/pngegg (3).png"/>
             </Property>
           </Properties>
         </Component>

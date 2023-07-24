@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package cv.generator;
+package Resume.generator;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -99,7 +99,7 @@ public class Registretion extends javax.swing.JFrame {
 
         btnBack.setBackground(new java.awt.Color(255, 241, 0));
         btnBack.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        btnBack.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cv/generator/pngwing.com (3).png"))); // NOI18N
+        btnBack.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resume/generator/pngwing.com (3).png"))); // NOI18N
         btnBack.setText("BACK");
         btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -109,7 +109,7 @@ public class Registretion extends javax.swing.JFrame {
 
         btnRegister.setBackground(new java.awt.Color(255, 255, 1));
         btnRegister.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        btnRegister.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cv/generator/pngwing.com.png"))); // NOI18N
+        btnRegister.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resume/generator/pngwing.com.png"))); // NOI18N
         btnRegister.setText("REGISTER");
         btnRegister.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -228,7 +228,7 @@ public class Registretion extends javax.swing.JFrame {
         time1.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         time1.setText("time");
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cv/generator/pngwing.com (2).png"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resume/generator/pngwing.com (2).png"))); // NOI18N
 
         javax.swing.GroupLayout kGradientPanel1Layout = new javax.swing.GroupLayout(kGradientPanel1);
         kGradientPanel1.setLayout(kGradientPanel1Layout);

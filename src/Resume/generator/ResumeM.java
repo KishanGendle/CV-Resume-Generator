@@ -3,14 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package cv.generator;
+package Resume.generator;
 
 import com.itextpdf.text.BaseColor;
+import com.itextpdf.text.pdf.PdfWriter;
 import com.itextpdf.text.Document;
+import com.itextpdf.text.DocumentException;
+import com.itextpdf.text.Element;
+import com.itextpdf.text.Font.FontFamily;
 import com.itextpdf.text.FontFactory;
 import com.itextpdf.text.Paragraph;
-import com.itextpdf.text.pdf.PdfPTable;
+import com.itextpdf.text.Phrase;
+import com.itextpdf.text.pdf.GrayColor;
+import com.itextpdf.text.pdf.PdfPCell;
 import com.itextpdf.text.pdf.PdfWriter;
+import com.itextpdf.text.pdf.PdfPTable;
 import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.Toolkit;
@@ -606,7 +613,7 @@ public class ResumeM extends javax.swing.JFrame {
 
         btnSave.setBackground(new java.awt.Color(255, 255, 1));
         btnSave.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        btnSave.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cv/generator/pngwing.com (22).png"))); // NOI18N
+        btnSave.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resume/generator/pngwing.com (22).png"))); // NOI18N
         btnSave.setText("SAVE");
         btnSave.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -616,7 +623,7 @@ public class ResumeM extends javax.swing.JFrame {
 
         btnGenerate.setBackground(new java.awt.Color(255, 255, 1));
         btnGenerate.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        btnGenerate.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cv/generator/pngegg (4).png"))); // NOI18N
+        btnGenerate.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resume/generator/pngegg (4).png"))); // NOI18N
         btnGenerate.setText("GENERATE");
         btnGenerate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -624,22 +631,22 @@ public class ResumeM extends javax.swing.JFrame {
             }
         });
 
-        jLabel37.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cv/generator/pngwing.com (15).png"))); // NOI18N
+        jLabel37.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resume/generator/pngwing.com (15).png"))); // NOI18N
 
-        jLabel38.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cv/generator/pngwing.com (17).png"))); // NOI18N
+        jLabel38.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resume/generator/pngwing.com (17).png"))); // NOI18N
 
-        jLabel39.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cv/generator/pngwing.com (18).png"))); // NOI18N
+        jLabel39.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resume/generator/pngwing.com (18).png"))); // NOI18N
 
         jLabel40.setFont(new java.awt.Font("Times New Roman", 1, 30)); // NOI18N
         jLabel40.setText("LANGUAGES");
 
-        jLabel41.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cv/generator/pngwing.com (19).png"))); // NOI18N
+        jLabel41.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resume/generator/pngwing.com (19).png"))); // NOI18N
 
-        jLabel42.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cv/generator/pngwing.com (20).png"))); // NOI18N
+        jLabel42.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resume/generator/pngwing.com (20).png"))); // NOI18N
 
         btnExit.setBackground(new java.awt.Color(255, 255, 1));
         btnExit.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        btnExit.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cv/generator/pngwing.com (9).png"))); // NOI18N
+        btnExit.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resume/generator/pngwing.com (9).png"))); // NOI18N
         btnExit.setText("EXIT");
         btnExit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -647,7 +654,7 @@ public class ResumeM extends javax.swing.JFrame {
             }
         });
 
-        jLabel29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cv/generator/pngwing.com (23).png"))); // NOI18N
+        jLabel29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resume/generator/pngwing.com (23).png"))); // NOI18N
 
         jLabel43.setFont(new java.awt.Font("Times New Roman", 1, 30)); // NOI18N
         jLabel43.setText("OBJECTIVE");
@@ -1001,7 +1008,7 @@ public class ResumeM extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(kGradientPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 1386, Short.MAX_VALUE)
+            .addComponent(kGradientPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 1386, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

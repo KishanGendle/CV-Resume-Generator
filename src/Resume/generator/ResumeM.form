@@ -1177,7 +1177,7 @@
               <Font name="Times New Roman" size="14" style="1"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/cv/generator/pngwing.com (22).png"/>
+              <Image iconType="3" name="/Resume/generator/pngwing.com (22).png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="SAVE"/>
           </Properties>
@@ -1194,7 +1194,7 @@
               <Font name="Times New Roman" size="14" style="1"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/cv/generator/pngegg (4).png"/>
+              <Image iconType="3" name="/Resume/generator/pngegg (4).png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="GENERATE"/>
           </Properties>
@@ -1205,21 +1205,21 @@
         <Component class="javax.swing.JLabel" name="jLabel37">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/cv/generator/pngwing.com (15).png"/>
+              <Image iconType="3" name="/Resume/generator/pngwing.com (15).png"/>
             </Property>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel38">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/cv/generator/pngwing.com (17).png"/>
+              <Image iconType="3" name="/Resume/generator/pngwing.com (17).png"/>
             </Property>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel39">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/cv/generator/pngwing.com (18).png"/>
+              <Image iconType="3" name="/Resume/generator/pngwing.com (18).png"/>
             </Property>
           </Properties>
         </Component>
@@ -1234,14 +1234,14 @@
         <Component class="javax.swing.JLabel" name="jLabel41">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/cv/generator/pngwing.com (19).png"/>
+              <Image iconType="3" name="/Resume/generator/pngwing.com (19).png"/>
             </Property>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel42">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/cv/generator/pngwing.com (20).png"/>
+              <Image iconType="3" name="/Resume/generator/pngwing.com (20).png"/>
             </Property>
           </Properties>
         </Component>
@@ -1254,7 +1254,7 @@
               <Font name="Times New Roman" size="14" style="1"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/cv/generator/pngwing.com (9).png"/>
+              <Image iconType="3" name="/Resume/generator/pngwing.com (9).png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="EXIT"/>
           </Properties>
@@ -1265,7 +1265,7 @@
         <Component class="javax.swing.JLabel" name="jLabel29">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/cv/generator/pngwing.com (23).png"/>
+              <Image iconType="3" name="/Resume/generator/pngwing.com (23).png"/>
             </Property>
           </Properties>
         </Component>

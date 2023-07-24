@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package cv.generator;
+package Resume.generator;
 
 import javax.swing.JOptionPane;
 
@@ -40,12 +40,12 @@ public class HomePage extends javax.swing.JFrame {
         kGradientPanel1.setkEndColor(new java.awt.Color(255, 255, 1));
         kGradientPanel1.setkStartColor(java.awt.Color.red);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cv/generator/pngwing.com (4).png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resume/generator/pngwing.com (4).png"))); // NOI18N
 
         jLabel4.setFont(new java.awt.Font("Times New Roman", 1, 48)); // NOI18N
         jLabel4.setText("WELCOME");
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cv/generator/pngwing.com (6).png"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resume/generator/pngwing.com (6).png"))); // NOI18N
         jLabel2.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 9, true));
         jLabel2.addAncestorListener(new javax.swing.event.AncestorListener() {
             public void ancestorMoved(javax.swing.event.AncestorEvent evt) {
@@ -64,7 +64,7 @@ public class HomePage extends javax.swing.JFrame {
 
         jButton1.setBackground(new java.awt.Color(255, 255, 1));
         jButton1.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cv/generator/pngwing.com (5).png"))); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resume/generator/pngwing.com (5).png"))); // NOI18N
         jButton1.setText("LOGOUT");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

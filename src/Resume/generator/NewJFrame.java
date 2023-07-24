@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package cv.generator;
+package Resume.generator;
 
 /**
  *
@@ -38,7 +38,7 @@ public class NewJFrame extends javax.swing.JFrame {
         kGradientPanel1.setkEndColor(new java.awt.Color(255, 255, 1));
         kGradientPanel1.setkStartColor(java.awt.Color.red);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cv/generator/pngegg (2).png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resume/generator/pngegg (2).png"))); // NOI18N
 
         prog.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         prog.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
